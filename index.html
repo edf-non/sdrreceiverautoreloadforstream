@@ -17,13 +17,13 @@
             var hour = new Date().getHours();
             if (hour >= 19 || hour <= 7) {
                 if (night == false) {
-                    document.getElementById('MainFrame').src = "http://flydog.psokiwi.net:8075/?f=4625usbz11&pb=0,3430";
+                    document.getElementById('MainFrame').src = "https://flydog.psokiwi.net:8075/?f=4625usbz11&pb=0,3430";
                     night = true;
                     day = false;
                 }
             } else {
                 if (day == false) {
-                    document.getElementById('MainFrame').src = "http://rha2sdr.ddns.net:8074/?f=4625usbz11&pb=0,3430";
+                    document.getElementById('MainFrame').src = "https://rha2sdr.ddns.net:8074/?f=4625usbz11&pb=0,3430";
                     day = true;
                     night = false;
                 }
@@ -37,7 +37,7 @@
         }
         MainFunc();
     </script>
-    <iframe src="http://rha2sdr.ddns.net:8074/?f=4625usbz11&pb=0,3430" id="MainFrame"
+    <iframe src="https://rha2sdr.ddns.net:8074/?f=4625usbz11&pb=0,3430" id="MainFrame"
         style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
         Your browser doesn't support iframes
     </iframe>
